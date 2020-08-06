@@ -8,6 +8,12 @@ class Circle {
   }
   
   get circumference() {
-    return this.radius 
+    return this.diameter * Math.PI 
+  }
+  
+  
+  
+  set diameter(diameter){
+    this.radius = diameter/2
   }
 }
